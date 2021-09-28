@@ -17,8 +17,8 @@ namespace movie_app_task_backend.Extensions
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IMediaService, MediaService>();
-            services.AddScoped<IRatingService, RatingService>();
-            services.AddScoped<IReportService, ReportService>();
+            services.AddScoped<IRatingsService, RatingsService>();
+            services.AddScoped<IReportsService, ReportsService>();
             services.AddScoped<IScreeningsService, ScreeningsService>();
         }
     }

@@ -3,7 +3,7 @@ using movie_app_task_backend.Dtos.Rating;
 
 namespace movie_app_task_backend.Services.RatingService
 {
-    public interface IRatingService
+    public interface IRatingsService
     {
         Task<int> AddRating(float rating, int MediaId);
     }

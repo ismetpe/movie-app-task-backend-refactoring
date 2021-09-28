@@ -8,22 +8,20 @@ using System.Threading.Tasks;
 
 namespace movie_app_task_backend.Services.ReportService
 {
-    public class ReportService : IReportService
+    public class ReportsService : IReportsService
     {
         private readonly DataContext _context;
 
-        public ReportService(DataContext context)
+        public ReportsService(DataContext context)
         {
             _context = context;
         }
         public async Task<List<MostRatedMoviesReport>> MostRatedMoviesReport()
         {
            
-
            var result = await _context.MostRatedMoviesReports.FromSqlRaw("EXEC [dbo].[GetTopTenMoviesWithMostRating];").ToListAsync();
-         
 
-            return result;
+           return result;
 
         }
 
@@ -32,13 +30,11 @@ namespace movie_app_task_backend.Services.ReportService
             var result = await _context.MoviesWithMostScreeningsReports.FromSqlRaw("EXEC [dbo].[GetTopTenMoviesWithMostScreening] {0}, {1};", start, end).ToListAsync();
 
             return result;
-
         }
 
         public async Task<List<MovieWithMostSoldTicketsReport>> MoviesWithMostSoldTicketsReport()
         {
-            var result = await _context.MoviesWithMostSoldTicketsReports.FromSqlRaw("EXEC [dbo].[GetMoviesWithMostSoldTicketsWithoutRating]")
-                                                                      .ToListAsync();
+            var result = await _context.MoviesWithMostSoldTicketsReports.FromSqlRaw("EXEC [dbo].[GetMoviesWithMostSoldTicketsWithoutRating]").ToListAsync();
 
             return result;
         }

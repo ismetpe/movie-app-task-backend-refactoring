@@ -13,9 +13,9 @@ namespace movie_app_task_backend.Controllers
     [ApiController]
     [Route("rating")]
     public class RatingController : ControllerBase
-    {        private readonly IRatingService _ratingService;
+    {        private readonly IRatingsService _ratingService;
 
-        public RatingController(IRatingService ratingService) 
+        public RatingController(IRatingsService ratingService) 
         {
 
             _ratingService = ratingService;

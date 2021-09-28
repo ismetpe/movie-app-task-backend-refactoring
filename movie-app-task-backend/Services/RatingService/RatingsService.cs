@@ -7,27 +7,22 @@ using movie_app_task_backend.Models;
 
 namespace movie_app_task_backend.Services.RatingService
 {
-    public class RatingService : IRatingService
+    public class RatingsService : IRatingsService
     {
 
         private readonly DataContext _context;
         private IHttpContextAccessor _httpContextAccessor;
 
-        public RatingService()
+        public RatingsService()
         {
         }
 
-        public RatingService(DataContext context)
+        public RatingsService(DataContext context)
         {
             _context = context;
-     
         }
         public async Task<int> AddRating(float rating, int MediaId)
         {
-
-           
-
-
              var addRating = new Rating
             {
                 Rating_value = rating,
@@ -36,8 +31,7 @@ namespace movie_app_task_backend.Services.RatingService
             };
 
               await _context.Ratings.AddAsync(addRating);
-                 await _context.SaveChangesAsync();
-
+              await _context.SaveChangesAsync();
 
             int result =  _context.Ratings.Max(x => x.Id);
 

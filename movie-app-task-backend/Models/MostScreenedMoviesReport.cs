@@ -7,7 +7,6 @@ namespace movie_app_task_backend.Models
 {
     public class MostScreenedMoviesReport
     {
-    
         public string Title { get; set; }
         public int NumberOfScreenings { get; set; }
     }

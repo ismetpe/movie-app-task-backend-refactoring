@@ -15,9 +15,9 @@ namespace movie_app_task_backend.Controllers
     public class ReportController : ControllerBase
     {
 
-        private readonly IReportService _reportsService;
+        private readonly IReportsService _reportsService;
 
-        public ReportController(IReportService reportsService)
+        public ReportController(IReportsService reportsService)
         {
             _reportsService = reportsService;
         }

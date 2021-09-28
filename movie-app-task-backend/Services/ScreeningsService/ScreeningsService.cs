@@ -35,8 +35,11 @@ namespace movie_app_task_backend.Services.ScreeningsService
             var ListOfScreenings = await GetScreenings();
 
             var screening = ListOfScreenings.Find(x  => x.Id == ScreeningID);
+
             int result = DateTime.Compare(DateOfBuying, screening.Date);
+
             Console.WriteLine(screening.Date + " " + DateOfBuying + " " + result);
+
             if(result < 0 || result == 0)
             {
                 throw new  Exception("Screening date must be in future");
@@ -45,10 +48,13 @@ namespace movie_app_task_backend.Services.ScreeningsService
             for (int i = 0; i < NumberOfTickets; i++)
             {
                 var purchasedTicket = new PurchasedTicket
-                { Price = 5.5F, ScreeningId = ScreeningID, UserId = UserID};
+                { 
+                    Price = 5.5F, ScreeningId = ScreeningID, UserId = UserID
+                };
+
                 await _context.PurchasedTickets.AddAsync(purchasedTicket);
                 await _context.SaveChangesAsync();
-            }
+             }
 
             int id = _context.PurchasedTickets.Max(x => x.Id);
 
