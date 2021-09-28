@@ -16,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using movie_app_task_backend.Data;
+using movie_app_task_backend.Extensions;
 using movie_app_task_backend.Services.MediaService;
 using movie_app_task_backend.Services.RatingService;
 using movie_app_task_backend.Services.ReportService;
@@ -35,28 +36,15 @@ namespace movie_app_task_backend
         }
 
         public IConfiguration Configuration { get; }
+        public object AddSwagger { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(options => options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "movie-app-task-backend", Version = "v1" });
-                c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
-                {
-                    Description = "Standard Authorization header using the Bearer scheme. Example: \"bearer {token}\"",
-                    In = ParameterLocation.Header,
-                    Name = "Authorization",
-                    Type = SecuritySchemeType.ApiKey
-                });
-                c.OperationFilter<SecurityRequirementsOperationFilter>();
-            });
-            services.AddScoped<IMediaService, MediaService>();
-            services.AddScoped<IRatingService, RatingService>();
-            services.AddScoped<IReportService, ReportService>();
-            services.AddScoped<IScreeningsService, ScreeningsService>();
+
+
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped<IAuthService, AuthService>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -70,7 +58,9 @@ namespace movie_app_task_backend
                         ValidateAudience = false
                     };
                 });
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            AddSwager.AddSwaggerConfig(ref services);
+            AddScoped.AddScopedConfig(ref services);
+         
             services.AddCors();
         }
 

@@ -10,7 +10,7 @@ using movie_app_task_backend.Data;
 namespace movie_app_task_backend.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210924105159_InitialCreate")]
+    [Migration("20210928080956_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -1347,78 +1347,6 @@ namespace movie_app_task_backend.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("PurchasedTickets");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Price = 5.5f,
-                            ScreeningId = 1,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Price = 5.5f,
-                            ScreeningId = 25,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Price = 5.5f,
-                            ScreeningId = 30,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Price = 5.5f,
-                            ScreeningId = 35,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Price = 5.5f,
-                            ScreeningId = 40,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Price = 5.5f,
-                            ScreeningId = 45,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Price = 5.5f,
-                            ScreeningId = 50,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Price = 5.5f,
-                            ScreeningId = 55,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Price = 5.5f,
-                            ScreeningId = 60,
-                            UserId = 1
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Price = 5.5f,
-                            ScreeningId = 65,
-                            UserId = 2
-                        });
                 });
 
             modelBuilder.Entity("movie_app_task_backend.Models.Rating", b =>
@@ -1622,7 +1550,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 1,
-                            Date = new DateTime(2022, 1, 6, 18, 31, 59, 547, DateTimeKind.Local).AddTicks(4577),
+                            Date = new DateTime(2022, 1, 10, 15, 49, 56, 521, DateTimeKind.Local).AddTicks(3727),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1632,7 +1560,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 2,
-                            Date = new DateTime(2021, 10, 4, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3041),
+                            Date = new DateTime(2021, 10, 8, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(1995),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1642,7 +1570,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 3,
-                            Date = new DateTime(2021, 10, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3067),
+                            Date = new DateTime(2021, 10, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2021),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1652,7 +1580,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 4,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3072),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2026),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1662,7 +1590,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 5,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3075),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2028),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1672,7 +1600,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 6,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3078),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2035),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1682,7 +1610,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 7,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3080),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2037),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1692,7 +1620,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 8,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3082),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2040),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1702,7 +1630,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 9,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3085),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2043),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1712,7 +1640,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 11,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3088),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2046),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1722,7 +1650,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 12,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3091),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2049),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1732,7 +1660,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 13,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3094),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2051),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1742,7 +1670,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 14,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3097),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2054),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1752,7 +1680,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 15,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3100),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2057),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1762,7 +1690,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 16,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3102),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2059),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1772,7 +1700,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 17,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3105),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2062),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1782,7 +1710,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 18,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3107),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2064),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1792,7 +1720,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 19,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3111),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2068),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1802,7 +1730,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 20,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3113),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2071),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1812,7 +1740,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 21,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3116),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2073),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1822,7 +1750,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 22,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3119),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2076),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1832,7 +1760,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 23,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3171),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2078),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1842,7 +1770,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 24,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3174),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2081),
                             MediaId = 1,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1852,7 +1780,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 25,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3177),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2083),
                             MediaId = 2,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1862,7 +1790,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 26,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3179),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2086),
                             MediaId = 2,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1872,7 +1800,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 27,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3185),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2088),
                             MediaId = 2,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1882,7 +1810,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 28,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3189),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2091),
                             MediaId = 2,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1892,7 +1820,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 29,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3192),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2093),
                             MediaId = 2,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1902,7 +1830,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 30,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3195),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2096),
                             MediaId = 80,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1912,7 +1840,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 31,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3198),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2098),
                             MediaId = 80,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1922,7 +1850,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 32,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3200),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2101),
                             MediaId = 80,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1932,7 +1860,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 33,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3203),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2103),
                             MediaId = 80,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1942,7 +1870,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 34,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3205),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2106),
                             MediaId = 80,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1952,7 +1880,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 35,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3208),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2109),
                             MediaId = 81,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1962,7 +1890,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 36,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3211),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2112),
                             MediaId = 81,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1972,7 +1900,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 37,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3216),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2115),
                             MediaId = 81,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1982,7 +1910,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 38,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3219),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2117),
                             MediaId = 81,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -1992,7 +1920,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 39,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3222),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2120),
                             MediaId = 81,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2002,7 +1930,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 40,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3225),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2122),
                             MediaId = 82,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2012,7 +1940,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 41,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3228),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2125),
                             MediaId = 82,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2022,7 +1950,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 42,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3231),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2127),
                             MediaId = 82,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2032,7 +1960,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 43,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3235),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2130),
                             MediaId = 82,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2042,7 +1970,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 44,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3238),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2132),
                             MediaId = 82,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2052,7 +1980,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 45,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3241),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2135),
                             MediaId = 83,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2062,7 +1990,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 46,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3248),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2137),
                             MediaId = 83,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2072,7 +2000,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 47,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3251),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2140),
                             MediaId = 83,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2082,7 +2010,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 48,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3253),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2142),
                             MediaId = 83,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2092,7 +2020,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 49,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3256),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2145),
                             MediaId = 83,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2102,7 +2030,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 50,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3258),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2147),
                             MediaId = 84,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2112,7 +2040,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 51,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3261),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2150),
                             MediaId = 84,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2122,7 +2050,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 52,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3264),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2153),
                             MediaId = 84,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2132,7 +2060,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 53,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3266),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2155),
                             MediaId = 84,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2142,7 +2070,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 54,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3268),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2158),
                             MediaId = 84,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2152,7 +2080,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 55,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3271),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2160),
                             MediaId = 85,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2162,7 +2090,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 56,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3273),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2163),
                             MediaId = 85,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2172,7 +2100,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 57,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3276),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2165),
                             MediaId = 85,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2182,7 +2110,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 58,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3279),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2168),
                             MediaId = 85,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2192,7 +2120,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 59,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3281),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2170),
                             MediaId = 85,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2202,7 +2130,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 60,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3284),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2173),
                             MediaId = 86,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2212,7 +2140,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 61,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3287),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2175),
                             MediaId = 86,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2222,7 +2150,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 62,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3289),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2178),
                             MediaId = 86,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2232,7 +2160,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 63,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3292),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2180),
                             MediaId = 86,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2242,7 +2170,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 64,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3294),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2183),
                             MediaId = 86,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2252,7 +2180,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 65,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3297),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2215),
                             MediaId = 87,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2262,7 +2190,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 66,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3299),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2218),
                             MediaId = 87,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2272,7 +2200,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 67,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3301),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2222),
                             MediaId = 87,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2282,7 +2210,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 68,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3304),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2225),
                             MediaId = 87,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,
@@ -2292,7 +2220,7 @@ namespace movie_app_task_backend.Migrations
                         new
                         {
                             Id = 69,
-                            Date = new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3307),
+                            Date = new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2227),
                             MediaId = 87,
                             Number_of_seats = 100,
                             Number_of_tickets = 100,

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using movie_app_task_backend.Data;
 using movie_app_task_backend.Dtos;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
+
 using System;
 using System.Text.RegularExpressions;
 using movie_app_task_backend.Models;

@@ -404,51 +404,34 @@ namespace movie_app_task_backend.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "PurchasedTickets",
-                columns: new[] { "Id", "Price", "ScreeningId", "UserId" },
-                values: new object[,]
-                {
-                    { 10, 5.5f, 65, 2 },
-                    { 8, 5.5f, 55, 1 },
-                    { 7, 5.5f, 50, 1 },
-                    { 6, 5.5f, 45, 1 },
-                    { 5, 5.5f, 40, 1 },
-                    { 4, 5.5f, 35, 1 },
-                    { 3, 5.5f, 30, 1 },
-                    { 2, 5.5f, 25, 1 },
-                    { 1, 5.5f, 1, 1 },
-                    { 9, 5.5f, 60, 1 }
-                });
-
-            migrationBuilder.InsertData(
                 table: "Ratings",
                 columns: new[] { "Id", "MediaId", "Rating_value" },
                 values: new object[,]
                 {
-                    { 12, 12, 4.5f },
-                    { 11, 11, 4.5f },
-                    { 10, 10, 4.5f },
+                    { 1, 1, 4.6f },
+                    { 4, 4, 4.5f },
+                    { 5, 5, 4.6f },
                     { 6, 6, 4.5f },
-                    { 8, 8, 4.5f },
                     { 7, 7, 4.5f },
-                    { 13, 13, 4.6f },
+                    { 8, 8, 4.5f },
                     { 9, 9, 4.6f },
-                    { 14, 14, 4.5f },
-                    { 19, 19, 4.5f },
+                    { 10, 10, 4.5f },
+                    { 11, 11, 4.5f },
+                    { 12, 12, 4.5f },
+                    { 3, 3, 4.5f },
+                    { 13, 13, 4.6f },
+                    { 15, 15, 4.5f },
                     { 16, 16, 4.5f },
                     { 17, 17, 4.6f },
-                    { 18, 18, 4.5f },
-                    { 5, 5, 4.6f },
+                    { 19, 19, 4.5f },
                     { 20, 20, 4.5f },
                     { 21, 21, 4.6f },
                     { 22, 22, 4.5f },
-                    { 24, 24, 4.5f },
-                    { 15, 15, 4.5f },
-                    { 4, 4, 4.5f },
                     { 23, 23, 4.5f },
-                    { 1, 1, 4.6f },
+                    { 24, 24, 4.5f },
+                    { 14, 14, 4.5f },
                     { 2, 2, 4.5f },
-                    { 3, 3, 4.5f }
+                    { 18, 18, 4.5f }
                 });
 
             migrationBuilder.InsertData(
@@ -456,14 +439,24 @@ namespace movie_app_task_backend.Migrations
                 columns: new[] { "Id", "Date", "MediaId", "Number_of_seats", "Number_of_tickets", "Place", "Time" },
                 values: new object[,]
                 {
-                    { 3, new DateTime(2021, 10, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3067), 1, 100, 100, "Sarajevo", "08:00" },
-                    { 46, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3248), 83, 100, 100, "Sarajevo", "11:00" },
-                    { 47, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3251), 83, 100, 100, "Sarajevo", "11:00" },
-                    { 48, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3253), 83, 100, 100, "Sarajevo", "11:00" },
-                    { 49, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3256), 83, 100, 100, "Sarajevo", "11:00" },
-                    { 50, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3258), 84, 100, 100, "Sarajevo", "11:00" },
-                    { 51, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3261), 84, 100, 100, "Sarajevo", "11:00" },
-                    { 52, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3264), 84, 100, 100, "Sarajevo", "11:00" }
+                    { 23, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2078), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 38, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2117), 81, 100, 100, "Sarajevo", "11:00" },
+                    { 39, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2120), 81, 100, 100, "Sarajevo", "11:00" },
+                    { 40, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2122), 82, 100, 100, "Sarajevo", "11:00" },
+                    { 41, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2125), 82, 100, 100, "Sarajevo", "11:00" },
+                    { 42, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2127), 82, 100, 100, "Sarajevo", "11:00" },
+                    { 43, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2130), 82, 100, 100, "Sarajevo", "11:00" },
+                    { 44, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2132), 82, 100, 100, "Sarajevo", "11:00" },
+                    { 45, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2135), 83, 100, 100, "Sarajevo", "11:00" },
+                    { 46, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2137), 83, 100, 100, "Sarajevo", "11:00" },
+                    { 47, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2140), 83, 100, 100, "Sarajevo", "11:00" },
+                    { 48, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2142), 83, 100, 100, "Sarajevo", "11:00" },
+                    { 49, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2145), 83, 100, 100, "Sarajevo", "11:00" },
+                    { 50, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2147), 84, 100, 100, "Sarajevo", "11:00" },
+                    { 51, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2150), 84, 100, 100, "Sarajevo", "11:00" },
+                    { 37, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2115), 81, 100, 100, "Sarajevo", "11:00" },
+                    { 52, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2153), 84, 100, 100, "Sarajevo", "11:00" },
+                    { 54, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2158), 84, 100, 100, "Sarajevo", "11:00" }
                 });
 
             migrationBuilder.InsertData(
@@ -471,48 +464,48 @@ namespace movie_app_task_backend.Migrations
                 columns: new[] { "Id", "Date", "MediaId", "Number_of_seats", "Number_of_tickets", "Place", "Time" },
                 values: new object[,]
                 {
-                    { 53, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3266), 84, 100, 100, "Sarajevo", "11:00" },
-                    { 54, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3268), 84, 100, 100, "Sarajevo", "11:00" },
-                    { 55, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3271), 85, 100, 100, "Sarajevo", "11:00" },
-                    { 56, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3273), 85, 100, 100, "Sarajevo", "11:00" },
-                    { 57, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3276), 85, 100, 100, "Sarajevo", "11:00" },
-                    { 58, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3279), 85, 100, 100, "Sarajevo", "11:00" },
-                    { 59, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3281), 85, 100, 100, "Sarajevo", "11:00" },
-                    { 2, new DateTime(2021, 10, 4, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3041), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 60, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3284), 86, 100, 100, "Sarajevo", "11:00" },
-                    { 45, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3241), 83, 100, 100, "Sarajevo", "11:00" },
-                    { 63, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3292), 86, 100, 100, "Sarajevo", "11:00" },
-                    { 64, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3294), 86, 100, 100, "Sarajevo", "11:00" },
-                    { 65, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3297), 87, 100, 100, "Sarajevo", "11:00" },
-                    { 66, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3299), 87, 100, 100, "Sarajevo", "11:00" },
-                    { 67, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3301), 87, 100, 100, "Sarajevo", "11:00" },
-                    { 68, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3304), 87, 100, 100, "Sarajevo", "11:00" },
-                    { 69, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3307), 87, 100, 100, "Sarajevo", "11:00" },
-                    { 8, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3082), 1, 100, 100, "Sarajevo", "22:00" },
-                    { 7, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3080), 1, 100, 100, "Sarajevo", "23:00" },
-                    { 6, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3078), 1, 100, 100, "Sarajevo", "00:00" },
-                    { 5, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3075), 1, 100, 100, "Sarajevo", "10:00" },
-                    { 1, new DateTime(2022, 1, 6, 18, 31, 59, 547, DateTimeKind.Local).AddTicks(4577), 1, 100, 100, "Sarajevo", "10:00" },
-                    { 4, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3072), 1, 100, 100, "Sarajevo", "09:00" },
-                    { 61, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3287), 86, 100, 100, "Sarajevo", "11:00" },
-                    { 62, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3289), 86, 100, 100, "Sarajevo", "11:00" },
-                    { 44, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3238), 82, 100, 100, "Sarajevo", "11:00" },
-                    { 42, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3231), 82, 100, 100, "Sarajevo", "11:00" },
-                    { 28, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3189), 2, 100, 100, "Sarajevo", "11:00" },
-                    { 27, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3185), 2, 100, 100, "Sarajevo", "11:00" },
-                    { 26, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3179), 2, 100, 100, "Sarajevo", "11:00" },
-                    { 25, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3177), 2, 100, 100, "Sarajevo", "11:00" },
-                    { 24, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3174), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 23, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3171), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 22, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3119), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 21, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3116), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 20, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3113), 1, 100, 100, "Sarajevo", "11:00" },
-                    { 19, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3111), 1, 100, 100, "Sarajevo", "12:00" },
-                    { 18, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3107), 1, 100, 100, "Sarajevo", "13:00" },
-                    { 17, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3105), 1, 100, 100, "Sarajevo", "14:00" },
-                    { 16, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3102), 1, 100, 100, "Sarajevo", "15:00" },
-                    { 15, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3100), 1, 100, 100, "Sarajevo", "16:00" },
-                    { 14, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3097), 1, 100, 100, "Sarajevo", "17:00" }
+                    { 55, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2160), 85, 100, 100, "Sarajevo", "11:00" },
+                    { 56, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2163), 85, 100, 100, "Sarajevo", "11:00" },
+                    { 57, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2165), 85, 100, 100, "Sarajevo", "11:00" },
+                    { 58, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2168), 85, 100, 100, "Sarajevo", "11:00" },
+                    { 59, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2170), 85, 100, 100, "Sarajevo", "11:00" },
+                    { 60, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2173), 86, 100, 100, "Sarajevo", "11:00" },
+                    { 61, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2175), 86, 100, 100, "Sarajevo", "11:00" },
+                    { 62, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2178), 86, 100, 100, "Sarajevo", "11:00" },
+                    { 63, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2180), 86, 100, 100, "Sarajevo", "11:00" },
+                    { 64, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2183), 86, 100, 100, "Sarajevo", "11:00" },
+                    { 65, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2215), 87, 100, 100, "Sarajevo", "11:00" },
+                    { 66, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2218), 87, 100, 100, "Sarajevo", "11:00" },
+                    { 67, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2222), 87, 100, 100, "Sarajevo", "11:00" },
+                    { 53, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2155), 84, 100, 100, "Sarajevo", "11:00" },
+                    { 36, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2112), 81, 100, 100, "Sarajevo", "11:00" },
+                    { 35, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2109), 81, 100, 100, "Sarajevo", "11:00" },
+                    { 34, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2106), 80, 100, 100, "Sarajevo", "11:00" },
+                    { 25, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2083), 2, 100, 100, "Sarajevo", "11:00" },
+                    { 26, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2086), 2, 100, 100, "Sarajevo", "11:00" },
+                    { 27, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2088), 2, 100, 100, "Sarajevo", "11:00" },
+                    { 28, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2091), 2, 100, 100, "Sarajevo", "11:00" },
+                    { 29, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2093), 2, 100, 100, "Sarajevo", "11:00" },
+                    { 22, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2076), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 21, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2073), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 20, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2071), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 19, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2068), 1, 100, 100, "Sarajevo", "12:00" },
+                    { 18, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2064), 1, 100, 100, "Sarajevo", "13:00" },
+                    { 17, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2062), 1, 100, 100, "Sarajevo", "14:00" },
+                    { 16, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2059), 1, 100, 100, "Sarajevo", "15:00" },
+                    { 15, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2057), 1, 100, 100, "Sarajevo", "16:00" },
+                    { 14, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2054), 1, 100, 100, "Sarajevo", "17:00" },
+                    { 13, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2051), 1, 100, 100, "Sarajevo", "18:00" },
+                    { 12, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2049), 1, 100, 100, "Sarajevo", "19:00" },
+                    { 11, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2046), 1, 100, 100, "Sarajevo", "20:00" },
+                    { 33, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2103), 80, 100, 100, "Sarajevo", "11:00" },
+                    { 32, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2101), 80, 100, 100, "Sarajevo", "11:00" },
+                    { 31, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2098), 80, 100, 100, "Sarajevo", "11:00" },
+                    { 30, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2096), 80, 100, 100, "Sarajevo", "11:00" },
+                    { 1, new DateTime(2022, 1, 10, 15, 49, 56, 521, DateTimeKind.Local).AddTicks(3727), 1, 100, 100, "Sarajevo", "10:00" },
+                    { 2, new DateTime(2021, 10, 8, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(1995), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 24, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2081), 1, 100, 100, "Sarajevo", "11:00" },
+                    { 3, new DateTime(2021, 10, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2021), 1, 100, 100, "Sarajevo", "08:00" }
                 });
 
             migrationBuilder.InsertData(
@@ -520,24 +513,14 @@ namespace movie_app_task_backend.Migrations
                 columns: new[] { "Id", "Date", "MediaId", "Number_of_seats", "Number_of_tickets", "Place", "Time" },
                 values: new object[,]
                 {
-                    { 13, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3094), 1, 100, 100, "Sarajevo", "18:00" },
-                    { 12, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3091), 1, 100, 100, "Sarajevo", "19:00" },
-                    { 41, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3228), 82, 100, 100, "Sarajevo", "11:00" },
-                    { 40, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3225), 82, 100, 100, "Sarajevo", "11:00" },
-                    { 39, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3222), 81, 100, 100, "Sarajevo", "11:00" },
-                    { 38, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3219), 81, 100, 100, "Sarajevo", "11:00" },
-                    { 37, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3216), 81, 100, 100, "Sarajevo", "11:00" },
-                    { 36, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3211), 81, 100, 100, "Sarajevo", "11:00" },
-                    { 43, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3235), 82, 100, 100, "Sarajevo", "11:00" },
-                    { 35, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3208), 81, 100, 100, "Sarajevo", "11:00" },
-                    { 33, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3203), 80, 100, 100, "Sarajevo", "11:00" },
-                    { 32, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3200), 80, 100, 100, "Sarajevo", "11:00" },
-                    { 31, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3198), 80, 100, 100, "Sarajevo", "11:00" },
-                    { 30, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3195), 80, 100, 100, "Sarajevo", "11:00" },
-                    { 9, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3085), 1, 100, 100, "Sarajevo", "21:00" },
-                    { 11, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3088), 1, 100, 100, "Sarajevo", "20:00" },
-                    { 34, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3205), 80, 100, 100, "Sarajevo", "11:00" },
-                    { 29, new DateTime(2022, 1, 2, 12, 51, 59, 549, DateTimeKind.Local).AddTicks(3192), 2, 100, 100, "Sarajevo", "11:00" }
+                    { 5, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2028), 1, 100, 100, "Sarajevo", "10:00" },
+                    { 6, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2035), 1, 100, 100, "Sarajevo", "00:00" },
+                    { 68, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2225), 87, 100, 100, "Sarajevo", "11:00" },
+                    { 7, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2037), 1, 100, 100, "Sarajevo", "23:00" },
+                    { 8, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2040), 1, 100, 100, "Sarajevo", "22:00" },
+                    { 9, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2043), 1, 100, 100, "Sarajevo", "21:00" },
+                    { 4, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2026), 1, 100, 100, "Sarajevo", "09:00" },
+                    { 69, new DateTime(2022, 1, 6, 10, 9, 56, 523, DateTimeKind.Local).AddTicks(2227), 87, 100, 100, "Sarajevo", "11:00" }
                 });
 
             migrationBuilder.InsertData(
@@ -586,7 +569,7 @@ namespace movie_app_task_backend.Migrations
                                                              BEGIN
                                                              SET NOCOUNT ON
 
-                                                             SELECT   m.Title, s.Id AS ScreeningName,COUNT(t.Id) AS SoldTickets
+                                                             SELECT  m.Id, m.Title, s.Id AS Screening,COUNT(t.Id) AS Sold_tickets
                                                              FROM Medias m
                                                              JOIN Screenings s ON s.MediaId = m.Id
                                                              JOIN Tickets t ON t.ScreeningId = s.Id
@@ -604,7 +587,7 @@ namespace movie_app_task_backend.Migrations
                                              BEGIN
                                              SET NOCOUNT ON
 
-                                             SELECT TOP 10  m.Title, Count(r.MediaId) as NumberOfRatings, avg(r.rating_value) AS MovieRating 
+                                             SELECT TOP 10  m.Id, m.Title, Count(r.MediaId) as NumberOfRatings, avg(r.rating_value) AS Movie_rating 
                                              FROM Medias m 
                                              JOIN Ratings r On r.MediaId = m.Id
                                              WHERE isSeries = 0 
@@ -622,7 +605,7 @@ namespace movie_app_task_backend.Migrations
                                              BEGIN
                                              SET NOCOUNT ON
 
-                                             SELECT TOP 10  m.Title, Count(s.Id) as NumberOfScreenings
+                                             SELECT TOP 10  m.Id, m.Title, Count(s.Id) as NumberOfScreenings
                                              FROM Medias m 
                                              JOIN Screenings s On s.MediaId = m.Id
                                              WHERE s.Date BETWEEN @start_date AND @end_date AND isSeries = 0
@@ -630,11 +613,9 @@ namespace movie_app_task_backend.Migrations
                                              ORDER BY Count(s.Id) DESC;
 
                                               END";
-
-
-            migrationBuilder.Sql(GetTopTenMoviesWithMostScreening);
-            migrationBuilder.Sql(GetTopTenMoviesWithMostRating);
             migrationBuilder.Sql(GetMoviesWithMostSoldTicketsWithoutRating);
+            migrationBuilder.Sql(GetTopTenMoviesWithMostRating);
+            migrationBuilder.Sql(GetTopTenMoviesWithMostScreening);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -672,13 +653,12 @@ namespace movie_app_task_backend.Migrations
             migrationBuilder.DropTable(
                 name: "Medias");
 
-
             migrationBuilder.DropTable(
                 name: "GetMoviesWithMostSoldTicketsWithoutRating");
             migrationBuilder.DropTable(
-         name: "GetTopTenMoviesWithMostRating");
+             name: "GetTopTenMoviesWithMostRating");
             migrationBuilder.DropTable(
-         name: "GetTopTenMoviesWithMostScreening");
+                name: "GetTopTenMoviesWithMostScreening") ;
         }
     }
 }
