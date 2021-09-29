@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using movie_app_task_backend.Data;
 using movie_app_task_backend.Models;
+using movie_app_task_backend.Services.ActorService;
 
 namespace movie_app_task_backend.Controllers
 {   
@@ -11,23 +12,17 @@ namespace movie_app_task_backend.Controllers
     [Route("api/[controller]")]
     public class ActorController : ControllerBase
     {
-        private readonly DataContext _contex;
-        public ActorController(DataContext contex)
+        private readonly IActorsService _actorsService;
+        public ActorController(IActorsService actorsService)
         {
-             _contex = contex;
-           
+            _actorsService = actorsService;
         }
 
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Actor>>> GetActors(){
-            return  await _contex.Actors.ToListAsync();
+               return Ok(await _actorsService.GetActors());
         }
 
-
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Actor>> GetActor(int id){
-             return await _contex.Actors.FindAsync(id);
-        }
     }
 }

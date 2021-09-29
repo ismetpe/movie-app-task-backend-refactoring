@@ -17,7 +17,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "1983-05-25",
                 Description = "Luke Skywalker attempts to bring his father back to the light side of the Force. At the same time, the rebels hatch a plan to destroy the second Death Star.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZZCMJ4/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -27,7 +27,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "1977-05-17",
                 Description = "After Princess Leia, the leader of the Rebel Alliance, is held hostage by Darth Vader, Luke and Han Solo must free her and destroy the powerful weapon created by the Galactic Empire.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZXZDZ3/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=225&w=150&",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -37,7 +37,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2002-12-18",
                 Description = "Frodo and Sam arrive in Mordor with the help of Gollum. A number of new allies join their former companions to defend Isengard as Saruman launches an assault from his domain",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL60J7/image?locale=en-gb&purposes=BoxArt&mode=scale&q=90&w=162",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -47,7 +47,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2012-12-13",
                 Description = "Bilbo Baggins, a hobbit, is persuaded into accompanying a wizard and a group of dwarves on a journey to reclaim the city of Erebor and all its riches from the dragon Smaug.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL59HB/image?locale=en-au&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -57,7 +57,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -67,7 +67,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "The former Fellowship members prepare for the final battle. While Frodo and Sam approach Mount Doom to destroy the One Ring, they follow Gollum, unaware of the path he is leading them to",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL60J7/image?locale=en-gb&purposes=BoxArt&mode=scale&q=90&w=162",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -77,7 +77,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Bilbo Baggins, a hobbit, is persuaded into accompanying a wizard and a group of dwarves on a journey to reclaim the city of Erebor and all its riches from the dragon Smaug.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL59HB/image?locale=en-au&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -87,7 +87,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-12-12",
                 Description = "Bilbo Baggins, a hobbit, and his companions face great dangers on their journey to Laketown. Soon, they reach the Lonely Mountain, where Bilbo comes face-to-face with the fearsome dragon Smaug.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZJ5NLV/image?locale=en-au&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -97,7 +97,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2014-12-11",
                 Description = "Bilbo fights against a number of enemies to save the life of his Dwarf friends and protects the Lonely Mountain after a conflict arises.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZTH3PF/image?locale=en-nz&purposes=BoxArt&mode=scale&q=90&w=162",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -107,7 +107,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "After having been missing for nearly 20 years, Rick Sanchez suddenly arrives at daughter Beth's doorstep to move in with her and her family.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN85RB/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=300&w=200&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -117,7 +117,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2010-10-31",
                 Description = "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN90WK/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=300&w=200&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -127,7 +127,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2017-09-24",
                 Description = "Michael Burnham and her companions in the USS Discovery travel into the far reaches of space to meet new lifeforms and discover new planets.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN8KT4/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=300&w=200&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -137,7 +137,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2018-06-20",
                 Description = "A sixth-generation homesteader and devoted father, John Dutton controls the largest contiguous ranch in the United States. He operates in a corrupt world where politicians are compromised by influential oil and lumber corporations and land grabs make developers billions.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN6RB1/image?locale=en-us&mode=crop&purposes=BoxArt&q=90&h=300&w=200&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -147,7 +147,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -157,7 +157,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -167,7 +167,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -177,7 +177,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -187,7 +187,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -197,7 +197,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -207,7 +207,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -217,7 +217,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -227,7 +227,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -237,7 +237,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -247,7 +247,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -257,7 +257,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -267,7 +267,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -278,7 +278,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -289,7 +289,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -301,7 +301,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
             new Media
@@ -311,7 +311,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -322,7 +322,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -333,7 +333,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -345,7 +345,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -356,7 +356,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -367,7 +367,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -379,7 +379,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -390,7 +390,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -401,7 +401,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -412,7 +412,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -423,7 +423,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -434,7 +434,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -445,7 +445,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -456,7 +456,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -467,7 +467,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -479,7 +479,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -489,7 +489,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -499,7 +499,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -511,7 +511,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -521,7 +521,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -532,7 +532,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -542,7 +542,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -553,7 +553,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -565,7 +565,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -576,7 +576,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -587,7 +587,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -598,7 +598,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -609,7 +609,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -620,7 +620,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -631,7 +631,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -642,7 +642,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -653,7 +653,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -664,7 +664,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -676,7 +676,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -687,7 +687,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -698,7 +698,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -709,7 +709,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -720,7 +720,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -731,7 +731,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -741,7 +741,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -752,7 +752,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -762,7 +762,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -774,7 +774,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -784,7 +784,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -794,7 +794,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -804,7 +804,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -814,7 +814,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -824,7 +824,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -834,7 +834,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -844,7 +844,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -854,7 +854,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -864,7 +864,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -874,7 +874,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -884,7 +884,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -894,7 +894,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -904,7 +904,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -914,7 +914,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -925,7 +925,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -936,7 +936,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
             new Media
@@ -946,7 +946,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = false,
+                MediaType = MediaType.Movie,
 
             },
 
@@ -958,7 +958,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -969,7 +969,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -980,7 +980,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -991,7 +991,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1002,7 +1002,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1013,7 +1013,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1024,7 +1024,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1035,7 +1035,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1046,7 +1046,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1057,7 +1057,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             },
 
@@ -1069,7 +1069,7 @@ namespace movie_app_task_backend.Data.Seeds
                 Release_year = "2013-09-17",
                 Description = "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City.",
                 img_url = "https://musicimage.xboxlive.com/catalog/video.tvseason.8D6KGWXN91QP/image?locale=de-de&mode=crop&purposes=BoxArt&q=90&h=225&w=150&format=jpg",
-                isSeries = true,
+                MediaType = MediaType.Series,
 
             }
 

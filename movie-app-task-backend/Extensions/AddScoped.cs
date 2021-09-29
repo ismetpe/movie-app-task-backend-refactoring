@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using movie_app_task_backend.Services.ActorService;
 using movie_app_task_backend.Services.MediaService;
 using movie_app_task_backend.Services.RatingService;
 using movie_app_task_backend.Services.ReportService;
@@ -20,6 +21,7 @@ namespace movie_app_task_backend.Extensions
             services.AddScoped<IRatingsService, RatingsService>();
             services.AddScoped<IReportsService, ReportsService>();
             services.AddScoped<IScreeningsService, ScreeningsService>();
+            services.AddScoped<IActorsService, ActorsService>();
         }
     }
 }
