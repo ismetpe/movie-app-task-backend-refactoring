@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "64/P1UIW/abxNgaAsRqz6cK4rj1a/HiuQNAQI2bb77SRHGpsrrf1M1/42cAWAaXO5uold3+3Lgz+AXYieMtjOQ==",
+  "dgSpecHash": "PR5D3FTOy2hO+dBR4EhA9DhiaEu1i81Jz09VX8JuAZUaHXetmzU1d7JM4iC282VgNA6G+GJAM6kiAYzAtxvK6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\movieapp_task_backend.csproj",
+  "projectFilePath": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\JapTaskBackendReffactored.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ismetpe\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ismetpe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

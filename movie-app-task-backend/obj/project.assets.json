@@ -5878,9 +5878,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\movieapp_task_backend.csproj",
-      "projectName": "movieapp_task_backend",
-      "projectPath": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\movieapp_task_backend.csproj",
+      "projectUniqueName": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\JapTaskBackendReffactored.csproj",
+      "projectName": "JapTaskBackendReffactored",
+      "projectPath": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\JapTaskBackendReffactored.csproj",
       "packagesPath": "C:\\Users\\ismetpe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ismetpe\\Desktop\\movie-app-task-backend-refactoring\\movie-app-task-backend\\obj\\",
       "projectStyle": "PackageReference",
