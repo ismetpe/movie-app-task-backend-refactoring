@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace movie_app_task_backend.Controllers
 {
     [ApiController]
-    [Route("apiscreenings")]
+    [Route("api/screenings")]
     public class ScreeningsController : ControllerBase
     {
         private readonly IScreeningsService _screeningsService;

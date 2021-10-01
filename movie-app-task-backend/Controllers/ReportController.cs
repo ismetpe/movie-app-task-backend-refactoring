@@ -11,7 +11,7 @@ using movie_app_task_backend.Dtos.Report;
 namespace movie_app_task_backend.Controllers
 {
     [ApiController]
-    [Route("reports")]
+    [Route("api/reports")]
     public class ReportController : ControllerBase
     {
 

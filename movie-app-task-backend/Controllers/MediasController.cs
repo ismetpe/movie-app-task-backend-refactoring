@@ -13,7 +13,7 @@ using movie_app_task_backend.Services.MediaService;
 namespace movie_app_task_backend.Controllers
 {
    [ApiController]
-    [Route("media")]
+    [Route("api/media")]
     public class VideosController : ControllerBase
     {
 
@@ -24,7 +24,7 @@ namespace movie_app_task_backend.Controllers
             _mediaService = mediaService;
         }
 
-        [HttpGet("api/get_media")]
+        [HttpGet("get_media")]
         public async Task<ActionResult<List<GetMediaDto>>> GetAllMovies([FromQuery] RequestDto req)
         {
             return Ok(await _mediaService.GetMedia(req));
