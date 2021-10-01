@@ -25,8 +25,38 @@ namespace movie_app_task_backend.Services.MediaService
             _mapper = mapper;
             _context = context;
         }
+    
         private async Task<List<GetMediaDto>> SearchFilter(string value)
         {
+
+            if (value.ToUpper().Contains("STARS"))
+            {
+                string[] numbers = Regex.Split(value, @"\D+");
+                int i = int.Parse(numbers[0]);
+                Console.WriteLine(i);
+                Console.WriteLine(value);
+                if(i >= 0 && i <= 5 && value.ToUpper().Contains("LEAST"))
+                {
+                      return await _context.Medias
+                                    .Include(x => x.Ratings)
+                                    .AsSplitQuery()
+                                    .Include(x => x.Actors)
+                                    .AsSplitQuery().Where(s => s.Ratings.Select(x => x.Rating_value).Average() >= i).Select(x => _mapper.Map<GetMediaDto>(x)).ToListAsync();
+
+                }
+                else
+                {
+                      return await _context.Medias
+                                    .Include(x => x.Ratings)
+                                    .AsSplitQuery()
+                                    .Include(x => x.Actors)
+                                    .AsSplitQuery().Where(s => s.Ratings.Select(x => x.Rating_value).Average() == i).Select(x => _mapper.Map<GetMediaDto>(x)).ToListAsync();
+
+                }
+            }
+
+
+           
             //throw new NotSupportedException();
             return await _context.Medias
                           .Include(x => x.Ratings)
