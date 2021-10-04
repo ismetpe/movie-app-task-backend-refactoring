@@ -19,7 +19,7 @@ namespace UnitTests
     {
         DataContext _context;
         MediaService _mediaService;
-        RatingService _ratingService;
+        RatingsService _ratingService;
         private IMapper _mapper;
         [SetUp]
         public async Task Setup()
@@ -106,7 +106,7 @@ namespace UnitTests
             _context.Ratings.Add(new Rating { Id = 9, Rating_value = 3.0F, MediaId = 3 });
             await _context.SaveChangesAsync();
             _mediaService = new MediaService(_mapper, _context);
-            _ratingService = new RatingService(_context);
+            _ratingService = new RatingsService(_context);
         }
 
         [TearDown]
