@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using movie_app_task_backend.Dtos.User;
-using movie_app_task_backend.Models;
-using movie_app_task_backend.Services.UserService;
+﻿using Core.Entities;
+using Core.Interfaces;
+using Core.Models.Models;
+using Microsoft.AspNetCore.Mvc;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

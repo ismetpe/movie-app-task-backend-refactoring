@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Core.Interfaces;
+using Core.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using movie_app_task_backend.Data;
-using movie_app_task_backend.Dtos.Rating;
-using movie_app_task_backend.Models;
-using movie_app_task_backend.Services.RatingService;
+
 
 namespace movie_app_task_backend.Controllers
 {

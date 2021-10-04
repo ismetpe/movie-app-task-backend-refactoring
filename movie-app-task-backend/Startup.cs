@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Database;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,13 +16,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using movie_app_task_backend.Data;
 using movie_app_task_backend.Extensions;
-using movie_app_task_backend.Services.MediaService;
-using movie_app_task_backend.Services.RatingService;
-using movie_app_task_backend.Services.ReportService;
-using movie_app_task_backend.Services.ScreeningsService;
-using movie_app_task_backend.Services.UserService;
+
 using Swashbuckle.AspNetCore.Filters;
 
 namespace movie_app_task_backend
@@ -46,7 +42,7 @@ namespace movie_app_task_backend
 
 
             services.AddAutoMapper(typeof(Startup));
-            services.AddScoped<IAuthService, AuthService>();
+  
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {

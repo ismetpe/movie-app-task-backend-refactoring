@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Core.Interfaces;
+using Database.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using movie_app_task_backend.Services.ActorService;
-using movie_app_task_backend.Services.MediaService;
-using movie_app_task_backend.Services.RatingService;
-using movie_app_task_backend.Services.ReportService;
-using movie_app_task_backend.Services.ScreeningsService;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +20,7 @@ namespace movie_app_task_backend.Extensions
             services.AddScoped<IReportsService, ReportsService>();
             services.AddScoped<IScreeningsService, ScreeningsService>();
             services.AddScoped<IActorsService, ActorsService>();
+            services.AddScoped<IAuthService, AuthService>();
         }
     }
 }

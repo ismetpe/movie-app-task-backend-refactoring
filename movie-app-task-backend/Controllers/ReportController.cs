@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using movie_app_task_backend.Services.ReportService;
-using movie_app_task_backend.Models;
-using movie_app_task_backend.Dtos.Report;
+using Core.Interfaces;
+using Core.Entities;
+using Core.Models.Models;
 
 namespace movie_app_task_backend.Controllers
 {

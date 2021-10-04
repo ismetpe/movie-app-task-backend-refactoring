@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using movie_app_task_backend.Dtos.PurchasedTickets;
-using movie_app_task_backend.Services.ScreeningsService;
+﻿using Core.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
